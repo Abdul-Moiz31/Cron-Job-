@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-cron-email-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^7.0.5",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}
